@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/x-icon" href="logoo.png">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML Form</title>
+</head>
+<body>
+    <section id="overlay">
+    <img class="images" src="logoo.png" alt="logo">
+    <h1 class="h1"><b>Create a Burger</b></h1>
+    <p class="p"><b>our burger are made with love</b></p>
+        <form>
+            <section>
+                <label for="username">Username:</label>
+                <input type="text" id="name" placeholder="username" name="username">
+                </input>
+            </section>
+            <hr>
+            <section>
+                <br>
+                <label for="password">password:</label>          
+                <input type="password" id="password" placeholder="password" name="password">
+            </input>
+            </section> 
+            <hr>
+            <section>
+                <label for="amount"><p><b id="amunt">Please, provide quantity!</b></p></label>
+                <input type="number" id="amount" name="amount" step="1" min="0">
+            </input>
+            </section>
+            <hr>
+            <p><b>How do you want your party cooked</b></p>
+            <section>
+                <br>
+                <label for="range">Rare 
+                    <input id="procenti" type="range" name="range" min="1" max="100" value="50" >
+                    </input> Well-Done
+                </label>
+            </section>
+            <hr>
+            <p class="taxt">What toppings would you like?</p>
+            <section class="klick">
+                <br>
+                <label for="lettuice">Lettuice</label>
+                <input name="lettuice" id="lettuice" value="lettuice" type="checkbox">
+                <label for="Tomato">Tomato</label>
+                <input type="checkbox" id="Tomato" value="Tomato" name="Tomato">
+                <label for="GreenChiles">Green Chiles</label>
+                <input type="checkbox" name="Green Chiles" id="Green Chiles" value="Green Chiles">
+            </section>
+            <hr>
+            <p>Would you like to add cheese?</p>
+            <section>
+                <br>
+                <input type="radio" id="yes" name="Cheese" value="yes">
+                <label for="Yes">Yes</label>
+                <input type="radio" name="Cheese" id="no" value="no">
+                <label for="No">No</label>
+            </section>
+            <hr>
+            <section>
+                <br>
+                <label for="bun-type">What type of bun would you like?</label>
+                <select name="buntype" id="bun-type">
+                    <option value="Sesame">Sesame</option>
+                    <option value="Potato">Potato</option>
+                    <option value="onion">onion</option>
+                </select>
+            </section>
+            <hr>
+            <section>
+               <label for="comment"> Anything else you want to add?</label> 
+               <br>
+               <textarea name="comment" id="comment" cols="30" rows="4">Extra info</textarea>
+
+            </section>
+            <hr>
+            <section>
+                <input type="submit" name="" id="">
+
+            </section>
+        </form>
+    </section>
+    
+</body>
+</html>
